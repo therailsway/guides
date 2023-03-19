@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,8 +14,8 @@
   <meta property="og:title" content="<%= yield(:page_title) %>" />
   <meta name="description" content="<%= yield(:description) %>" />
   <meta property="og:description" content="<%= yield(:description) %>" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="Ruby on Rails Guides" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="Ruby on Rails 指南" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/4223" />
   <meta property="og:type" content="website" />
 </head>
@@ -27,16 +27,16 @@
   <% end %>
   <div id="topNav">
     <div class="wrapper">
-      <strong class="more-info-label">More at <a href="https://rubyonrails.org/">rubyonrails.org:</a> </strong>
+      <strong class="more-info-label">更多信息可查阅 <a href="https://rubyonrails.org/">rubyonrails.org:</a> </strong>
       <span class="red-button more-info-button">
-        More Ruby on Rails
+        更多 Ruby on Rails
       </span>
       <ul class="more-info-links s-hidden">
-        <li class="more-info"><a href="https://rubyonrails.org/blog">Blog</a></li>
-        <li class="more-info"><a href="https://guides.rubyonrails.org/">Guides</a></li>
+        <li class="more-info"><a href="https://rubyonrails.org/blog">博文</a></li>
+        <li class="more-info"><a href="https://guides.rubyonrails.org/">指南</a></li>
         <li class="more-info"><a href="https://api.rubyonrails.org/">API</a></li>
-        <li class="more-info"><a href="https://discuss.rubyonrails.org/">Forum</a></li>
-        <li class="more-info"><a href="https://github.com/rails/rails">Contribute on GitHub</a></li>
+        <li class="more-info"><a href="https://discuss.rubyonrails.org/">论坛</a></li>
+        <li class="more-info"><a href="https://github.com/rails/rails">在 GitHub 做贡献</a></li>
       </ul>
     </div>
   </div>
@@ -44,9 +44,9 @@
     <div class="wrapper clearfix">
       <h1><a href="index.html" title="Return to home page">Guides.rubyonrails.org</a></h1>
       <ul class="nav">
-        <li><a class="nav-item" href="index.html">Home</a></li>
+        <li><a class="nav-item" href="index.html">首页</a></li>
         <li class="guides-index guides-index-large">
-          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">Guides Index</a>
+          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">指南索引</a>
           <div id="guides" class="clearfix" style="display: none;">
             <hr />
             <dl class="guides-section-container">
@@ -61,10 +61,10 @@
             </dl>
           </div>
         </li>
-        <li><a class="nav-item" href="contributing_to_ruby_on_rails.html">Contribute</a></li>
+        <li><a class="nav-item" href="contributing_to_ruby_on_rails.html">贡献</a></li>
         <li class="guides-index guides-index-small">
           <select class="guides-index-item nav-item">
-            <option value="index.html">Guides Index</option>
+            <option value="index.html">指南索引</option>
             <% docs_for_menu.each do |section| %>
               <optgroup label="<%= section['name'] %>">
                 <% finished_documents(section['documents']).each do |document| %>
@@ -92,7 +92,7 @@
       <div id="mainCol">
         <%= yield %>
 
-        <h3>Feedback</h3>
+        <h3>反馈</h3>
         <p>
           You're encouraged to help improve the quality of this guide.
         </p>

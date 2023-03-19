@@ -1,5 +1,5 @@
-<% content_for :page_title, "Ruby on Rails Guides" %>
-<% content_for :description, "Ruby on Rails Guides" %>
+<% content_for :page_title, "Ruby on Rails 指南" %>
+<% content_for :description, "Ruby on Rails 指南" %>
 
 <% content_for :header_section do %>
 <%= render 'welcome' %>
@@ -10,9 +10,9 @@
   <dl>
     <dt></dt>
     <% unless @edge -%>
-      <dd class="kindle">Rails Guides are also available for <%= link_to 'Kindle', @epub %>.</dd>
+      <dd class="kindle">Rails 指南也提供 <%= link_to 'Kindle', @epub %> 版本。</dd>
     <% end -%>
-    <dd class="work-in-progress">Guides marked with this icon are currently being worked on and will not be available in the Guides Index menu. While still useful, they may contain incomplete information and even errors. You can help by reviewing them and posting your comments and corrections.</dd>
+    <dd class="work-in-progress">带有本标识指南表示内容还在完善中，所以不会出现在指南索引菜单。但是该值南是可用的，可能还有不完善的地方或者还有一些错误存在。您可以对不完善的地方进行评论或者修改。</dd>
   </dl>
 </div>
 <% end %>
