@@ -1,0 +1,29 @@
+<% content_for :page_title, "Ruby on Rails 指南" %>
+<% content_for :description, "Ruby on Rails 指南" %>
+
+<% content_for :header_section do %>
+<%= render 'welcome' %>
+<% end %>
+
+<% content_for :index_section do %>
+<div id="subCol">
+  <dl>
+    <dt></dt>
+    <% unless @edge -%>
+      <dd class="kindle">Rails 指南也提供 <%= link_to 'Kindle', @epub %> 版本。</dd>
+    <% end -%>
+    <dd class="work-in-progress">带有本标识指南表示内容还在完善中，所以不会出现在指南索引菜单。但是该值南是可用的，可能还有不完善的地方或者还有一些错误存在。您可以对不完善的地方进行评论或者修改。</dd>
+  </dl>
+</div>
+<% end %>
+
+<% documents_by_section.each do |section| %>
+  <h3><%= section['name'] %></h3>
+  <dl>
+    <% section['documents'].each do |document| %>
+      <%= guide(document['name'], document['url'], work_in_progress: document['work_in_progress']) do %>
+        <p><%= document['description'] %></p>
+      <% end %>
+    <% end %>
+  </dl>
+<% end %>

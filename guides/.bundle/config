@@ -1,0 +1,2 @@
+---
+BUNDLE_WITHOUT: "job:cable:storage:ujs:test:db"

@@ -1,0 +1,3 @@
+---
+BUNDLE_______WITHOUT: "job cable storage ujs test db"
+BUNDLE_WITHOUT: "job:cable:storage:ujs:test:db"
