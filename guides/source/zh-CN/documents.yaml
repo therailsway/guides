@@ -1,29 +1,29 @@
 -
-  name: Start Here
+  name: 从这里开始
   documents:
     -
-      name: Getting Started with Rails
+      name: Rails 起步
       url: getting_started.html
-      description: Everything you need to know to install Rails and create your first application.
+      description: 安装 Rails 和创建您的第一个应用程序所需要知道的一切。
 -
-  name: Models
+  name: 模型（Model）
   documents:
     -
-      name: Active Record Basics
+      name: Active Record 基础
       url: active_record_basics.html
       description: >
         Active Record allows your models to interact with the application's
         database. This guide will get you started with Active Record models
         and persistence to the database.
     -
-      name: Active Record Migrations
+      name: Active Record 迁移（Migration）
       url: active_record_migrations.html
       description: >
         Migrations are a feature of Active Record that allows you to evolve your
         database schema over time. Rather than write schema modifications in pure SQL,
         migrations allow you to use a Ruby DSL to describe changes to your tables.
     -
-      name: Active Record Validations
+      name: Active Record 验证
       url: active_record_validations.html
       description: >
         Validations are used to ensure that only valid data is saved into your
@@ -31,21 +31,21 @@
         before they go into the database, using Active Record's validations
         feature.
     -
-      name: Active Record Callbacks
+      name: Active Record 回调（Callback）
       url: active_record_callbacks.html
       description: >
         Callbacks make it possible to write code that will run whenever an
         object is created, updated, destroyed, etc. This guide teaches you how
         to hook into this object life cycle of Active Record objects.
     -
-      name: Active Record Associations
+      name: Active Record 关联
       url: association_basics.html
       description: >
         In Active Record, an association is a connection between two Active
         Record models. This guide covers all the associations provided by
         Active Record.
     -
-      name: Active Record Query Interface
+      name: Active Record 查询接口
       url: active_record_querying.html
       description: >
         Instead of using raw SQL to find database records, Active Record
@@ -53,7 +53,7 @@
         covers different ways to retrieve data from the database using Active
         Record.
     -
-      name: Active Model Basics
+      name: Active Model 基础
       url: active_model_basics.html
       description: >
         Active Model allows you to create plain Ruby objects that integrate with
@@ -63,7 +63,7 @@
         started using Active Model classes.
       work_in_progress: true
 -
-  name: Views
+  name: 视图（View）
   documents:
     -
       name: Action View Overview
@@ -93,7 +93,7 @@
         Rails does away with this complexity by providing view helpers for
         generating form markup.
 -
-  name: Controllers
+  name: 控制器（Controller）
   documents:
     -
       name: Action Controller Overview
@@ -113,7 +113,7 @@
         If you want to understand how to use routing in your own Rails
         applications, start here.
 -
-  name: Other Components
+  name: 其它组件
   documents:
     -
       name: Active Support Core Extensions
@@ -170,7 +170,7 @@
         JavaScript, CSS, and other assets for the client-side of your Rails
         application.
 -
-  name: Digging Deeper
+  name: 深度研究
   documents:
     -
       name: Rails Internationalization (I18n) API
@@ -262,7 +262,7 @@
       description: This guide covers encrypting your database information using Active Record.
 
 -
-  name: Extending Rails
+  name: 拓展 Rails
   documents:
     -
       name: The Basics of Creating Rails Plugins
@@ -301,7 +301,7 @@
       description: This guide describes the considerations needed and tools available when working directly with concurrency in a Rails application.
       work_in_progress: true
 -
-  name: Contributing
+  name: 贡献
   documents:
     -
       name: Contributing to Ruby on Rails
@@ -319,14 +319,14 @@
       url: development_dependencies_install.html
       description: This guide covers how to set up an environment for Ruby on Rails core development.
 -
-  name: Policies
+  name: 方针
   documents:
     -
       name: Maintenance Policy
       url: maintenance_policy.html
       description: What versions of Ruby on Rails are currently supported, and when to expect new versions.
 -
-  name: Release Notes
+  name: 版本注记
   documents:
     -
       name: Upgrading Ruby on Rails
