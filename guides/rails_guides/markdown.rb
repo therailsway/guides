@@ -142,7 +142,7 @@ module RailsGuides
 
           @index = <<-INDEX.html_safe
           <div id="subCol">
-            <h3 class="chapter"><img src="images/chapters_icon.gif" alt="" />Chapters</h3>
+            <h3 class="chapter"><img src="images/chapters_icon.gif" alt="" />目录</h3>
             #{@index}
           </div>
           INDEX
@@ -151,9 +151,9 @@ module RailsGuides
 
       def generate_title
         if heading = Nokogiri::HTML.fragment(@header).at(:h2)
-          @title = "#{heading.text} — Ruby on Rails Guides"
+          @title = "#{heading.text} — Ruby on Rails 指南"
         else
-          @title = "Ruby on Rails Guides"
+          @title = "Ruby on Rails 指南"
         end
       end
 
