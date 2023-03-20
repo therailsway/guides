@@ -1,26 +1,26 @@
 **DO NOT READ THIS FILE ON GITHUB, GUIDES ARE PUBLISHED ON https://guides.rubyonrails.org.**
 
-Contributing to Ruby on Rails
+为 Ruby on Rails 作贡献
 =============================
 
-This guide covers how _you_ can become a part of the ongoing development of Ruby on Rails.
+本指南内容揭秘 _您_ 如何才能成为 Ruby on Rails 持续开发者之一 。
 
-After reading this guide, you will know:
+通过阅读本指南，您将了解：
 
-* How to use GitHub to report issues.
-* How to clone main and run the test suite.
-* How to help resolve existing issues.
-* How to contribute to the Ruby on Rails documentation.
-* How to contribute to the Ruby on Rails code.
+* 如何利用 GitHub 报告问题；
+* 如何复制主分支和运行测试套件；
+* 如何帮助解决存在的问题；
+* 如何为 Ruby on Rails 文档作贡献；
+* 如何为 the Ruby on Rails 代码做贡献。
 
-Ruby on Rails is not "someone else's framework". Over the years, thousands of people have contributed to Ruby on Rails ranging from a single character to massive architectural changes or significant documentation - all to make Ruby on Rails better for everyone. Even if you don't feel up to writing code or documentation yet, there are various other ways that you can contribute, from reporting issues to testing patches.
+Ruby on Rails 不是“泛泛的某些人又写的一个框架而已”。多年来，成千上万的人们参与到  Ruby on Rails 中——从一个字符到大型的架构修改，或者重要的文档撰写——所有这一切都在促使 Ruby on Rails 变得更好。即使您不会编写代码或者文档，也会有很多方式参与到其中——如汇报问题或测试软件补丁等。
 
 As mentioned in [Rails'
 README](https://github.com/rails/rails/blob/main/README.md), everyone interacting in Rails and its sub-projects' codebases, issue trackers, chat rooms, discussion boards, and mailing lists is expected to follow the Rails [code of conduct](https://rubyonrails.org/conduct).
 
 --------------------------------------------------------------------------------
 
-Reporting an Issue
+报告错误
 ------------------
 
 Ruby on Rails uses [GitHub Issue Tracking](https://github.com/rails/rails/issues) to track issues (primarily bugs and contributions of new code). If you've found a bug in Ruby on Rails, this is the place to start. You'll need to create a (free) GitHub account to submit an issue, comment on issues, or create pull requests.
