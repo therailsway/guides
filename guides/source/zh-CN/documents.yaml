@@ -315,7 +315,8 @@
       name: 指南大纲
       url: ruby_on_rails_guides_guidelines.html
       description: This guide documents the Ruby on Rails guides guidelines.
-    - name: Installing Rails Core Development Dependencies
+      
+    - name: 安装 Rails 核心开发依赖软件
       url: development_dependencies_install.html
       description: This guide covers how to set up an environment for Ruby on Rails core development.
 -
