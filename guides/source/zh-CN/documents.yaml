@@ -66,18 +66,18 @@
   name: 视图（View）
   documents:
     -
-      name: Action View Overview
+      name: Action View 概览
       url: action_view_overview.html
       description: >
         Action View is responsible for generating the HTML for web responses.
         This guide provides an introduction to Action View.
       work_in_progress: true
     -
-      name: Layouts and Rendering in Rails
+      name: Rails 中的页面布局和渲染
       url: layouts_and_rendering.html
       description: This guide covers the basic layout features of Action Controller and Action View, including rendering and redirecting, using content_for blocks, and working with partials.
     -
-      name: Action View Helpers
+      name: Action View 辅助方法
       url: action_view_helpers.html
       description: >
         Action View has helpers for handling everything from formatting dates
@@ -85,7 +85,7 @@
         introduces a few of the more common Action View helpers.
       work_in_progress: true
     -
-      name: Action View Form Helpers
+      name: Action View 表单辅助方法
       url: form_helpers.html
       description: >
         HTML forms can quickly become tedious to write and maintain because of
@@ -96,7 +96,7 @@
   name: 控制器（Controller）
   documents:
     -
-      name: Action Controller Overview
+      name: Action Controller 概览
       url: action_controller_overview.html
       description: >
         Action Controllers are the core of a web request in Rails.
@@ -105,7 +105,7 @@
         cookies, data streaming, and dealing with exceptions raised by a
         request, among other topics.
     -
-      name: Rails Routing from the Outside In
+      name: Rails 路由详解
       url: routing.html
       description: >
         The Rails router recognizes URLs and dispatches them to a controller's
@@ -116,30 +116,30 @@
   name: 其它组件
   documents:
     -
-      name: Active Support Core Extensions
+      name: Active Support 核心扩展
       url: active_support_core_extensions.html
       description: >
         Active Support provides Ruby language extensions and utilities.
         It enriches the Ruby language for the development of Rails
         applications, and for the development of Ruby on Rails itself.
     -
-      name: Action Mailer Basics
+      name: Action Mailer 基础
       url: action_mailer_basics.html
       description: >
         This guide provides you with all you need to get started in sending
         emails from your application, and many internals of Action Mailer.
     -
-      name: Action Mailbox Basics
+      name: Action Mailbox 基础
       work_in_progress: true
       url: action_mailbox_basics.html
       description: This guide describes how to use Action Mailbox to receive emails.
     -
-      name: Action Text Overview
+      name: Action Text 概览
       work_in_progress: true
       url: action_text_overview.html
       description: This guide describes how to use Action Text to handle rich text content.
     -
-      name: Active Job Basics
+      name: Active Job 基础
       url: active_job_basics.html
       description: >
         Active Job is a framework for declaring background jobs and making them
@@ -147,14 +147,14 @@
         you need to get started creating, enqueuing, and executing background
         jobs.
     -
-      name: Active Storage Overview
+      name: Active Storage 概览
       url: active_storage_overview.html
       description: >
         Active Storage facilitates uploading files to a cloud storage service,
         transforming uploads and extracting metadata. This guide covers how to
         attach files to your Active Record models.
     -
-      name: Action Cable Overview
+      name: Action Cable 概览
       url: action_cable_overview.html
       description: >
         Action Cable integrates WebSockets with the rest of your Rails
@@ -173,38 +173,38 @@
   name: 深度研究
   documents:
     -
-      name: Rails Internationalization (I18n) API
+      name: Rails 国际化（I18n） API
       url: i18n.html
       description: This guide covers how to add internationalization to your applications. Your application will be able to translate content to different languages, change pluralization rules, use correct date formats for each country, and so on.
     -
-      name: Testing Rails Applications
+      name: Rails 应用程序的测试
       url: testing.html
       description: This is a rather comprehensive guide to the various testing facilities in Rails. It covers everything from 'What is a test?' to Integration Testing. Enjoy.
     -
-      name: Securing Rails Applications
+      name: Rails 应用程序的安全
       url: security.html
       description: This guide describes common security problems in web applications and how to avoid them with Rails.
     -
-      name: Error Reporting in Rails Applications
+      name: Rails 应用程序的纠错
       url: error_reporting.html
       description: This guide introduces ways to manage exceptions that occur in Ruby on Rails applications.
     -
-      name: Debugging Rails Applications
+      name: Rails 应用程序的调试
       url: debugging_rails_applications.html
       description: This guide describes how to debug Rails applications. It covers the different ways of achieving this and how to understand what is happening "behind the scenes" of your code.
     -
-      name: Configuring Rails Applications
+      name: Rails 应用程序的配置
       url: configuring.html
       description: This guide covers the basic configuration settings for a Rails application.
     -
-      name: The Rails Command Line
+      name: Rails 命令行
       url: command_line.html
       description: >
         There are a few commands that are absolutely critical to your everyday
         usage of Rails. This guide covers the command line tools provided by
         Rails.
     -
-      name: The Asset Pipeline
+      name: Asset Pipeline 资产管理
       url: asset_pipeline.html
       description: >
         The asset pipeline provides a framework to concatenate and minify or
@@ -212,13 +212,13 @@
         write these assets in other languages and pre-processors such as
         CoffeeScript, Sass, and ERB.
     -
-      name: Working with JavaScript in Rails
+      name: 在 Rails 中使用 JavaScript
       url: working_with_javascript_in_rails.html
       description: >
         This guide explains how to use import maps or jsbundling-rails to include
         JavaScript in Rails applications, and covers the basics of working with Turbo in Rails.
     -
-      name: The Rails Initialization Process
+      name: Rails 初始化处理
       work_in_progress: true
       url: initialization.html
       description: >
@@ -226,15 +226,15 @@
         Rails. It is an extremely in-depth guide and recommended for advanced
         Rails developers.
     -
-      name: Autoloading and Reloading Constants
+      name: 常量的自动加载和重载
       url: autoloading_and_reloading_constants.html
       description: This guide documents how autoloading and reloading constants work (Zeitwerk mode).
     -
-      name: "Classic to Zeitwerk HOWTO"
+      name: 从常规到 Zeitwerk
       url: "classic_to_zeitwerk_howto.html"
       description: "This guide documents how to migrate Rails applications from `classic` to `zeitwerk` mode."
     -
-      name: "Caching with Rails: An Overview"
+      name: Rails 缓存概览
       url: caching_with_rails.html
       description: This guide is an introduction to speeding up your Rails application with caching.
     -
@@ -243,20 +243,20 @@
       url: active_support_instrumentation.html
       description: This guide explains how to use the instrumentation API inside of Active Support to measure events inside of Rails and other Ruby code.
     -
-      name: Using Rails for API-only Applications
+      name: 使用 Rails 做仅限 API 的应用程序
       url: api_app.html
       description: This guide explains how to effectively use Rails to develop a JSON API application.
     -
-      name: Active Record and PostgreSQL
+      name: Active Record 和 PostgreSQL
       work_in_progress: true
       url: active_record_postgresql.html
       description: This guide covers PostgreSQL specific usage of Active Record.
     -
-      name: Multiple Databases with Active Record
+      name: 用 Active Record 处理多个数据库
       url: active_record_multiple_databases.html
       description: This guide covers using multiple databases in your application.
     -
-      name: Active Record Encryption
+      name: Active Record 加密
       work_in_progress: true
       url: active_record_encryption.html
       description: This guide covers encrypting your database information using Active Record.
@@ -265,20 +265,20 @@
   name: 拓展 Rails
   documents:
     -
-      name: The Basics of Creating Rails Plugins
+      name: 创建 Rails Plugin 简介
       work_in_progress: true
       url: plugins.html
       description: This guide covers how to build a plugin to extend the functionality of Rails.
     -
-      name: Rails on Rack
+      name: 基于 Rack 的 Rails
       url: rails_on_rack.html
       description: This guide covers Rails integration with Rack and interfacing with other Rack components.
     -
-      name: Creating and Customizing Rails Generators & Templates
+      name: 创建和定制 Rails 的生成器以及模板
       url: generators.html
       description: This guide covers the process of adding a brand new generator to your extension or providing an alternative to an element of a built-in Rails generator (such as providing alternative test stubs for the scaffold generator).
     -
-      name: Getting Started with Engines
+      name: Engine 入门
       url: engines.html
       description: >
         Engines can be considered miniature applications that provide
@@ -287,7 +287,7 @@
         application.
       work_in_progress: true
     -
-      name: Rails Application Templates
+      name: Rails 应用程序模板
       url: rails_application_templates.html
       description: >
         Application templates are simple Ruby files containing DSL for adding
@@ -296,7 +296,7 @@
       work_in_progress: true
 
     -
-      name: Threading and Code Execution in Rails
+      name: Rails 的线程和代码执行
       url: threading_and_code_execution.html
       description: This guide describes the considerations needed and tools available when working directly with concurrency in a Rails application.
       work_in_progress: true
@@ -304,15 +304,15 @@
   name: 贡献
   documents:
     -
-      name: Contributing to Ruby on Rails
+      name: 为 Ruby on Rails 做贡献
       url: contributing_to_ruby_on_rails.html
       description: Rails is not "someone else's framework". This guide covers a variety of ways that you can get involved in the ongoing development of Rails.
     -
-      name: API Documentation Guidelines
+      name: API 文档大纲
       url: api_documentation_guidelines.html
       description: This guide documents the Ruby on Rails API documentation guidelines.
     -
-      name: Guides Guidelines
+      name: 指南大纲
       url: ruby_on_rails_guides_guidelines.html
       description: This guide documents the Ruby on Rails guides guidelines.
     - name: Installing Rails Core Development Dependencies
@@ -322,76 +322,76 @@
   name: 方针
   documents:
     -
-      name: Maintenance Policy
+      name: 持久化策略
       url: maintenance_policy.html
       description: What versions of Ruby on Rails are currently supported, and when to expect new versions.
 -
   name: 版本注记
   documents:
     -
-      name: Upgrading Ruby on Rails
+      name: 升级 Ruby on Rails
       url: upgrading_ruby_on_rails.html
       description: >
         This guide provides steps to be followed when you upgrade your
         applications to a newer version of Ruby on Rails.
     -
-      name: Version 7.1 - ?
+      name: 版本 7.1 - ?
       url: 7_1_release_notes.html
-      description: Release notes for Rails 7.1.
+      description: 版本注记之 Rails 7.1。
       work_in_progress: true
     -
-      name: Version 7.0 - December 2021
+      name: 版本 7.0 - December 2021
       url: 7_0_release_notes.html
-      description: Release notes for Rails 7.0.
+      description: 版本注记之 Rails 7.0。
     -
-      name: Version 6.1 - December 2020
+      name: 版本 6.1 - December 2020
       url: 6_1_release_notes.html
-      description: Release notes for Rails 6.1.
+      description: 版本注记之 Rails 6.1。
     -
-      name: Version 6.0 - August 2019
+      name: 版本 6.0 - August 2019
       url: 6_0_release_notes.html
-      description: Release notes for Rails 6.0.
+      description: 版本注记之 Rails 6.0。
     -
-      name: Version 5.2 - April 2018
+      name: 版本 5.2 - April 2018
       url: 5_2_release_notes.html
-      description: Release notes for Rails 5.2.
+      description: 版本注记之 Rails 5.2。
     -
-      name: Version 5.1 - April 2017
+      name: 版本 5.1 - April 2017
       url: 5_1_release_notes.html
-      description: Release notes for Rails 5.1.
+      description: 版本注记之 Rails 5.1。
     -
-      name: Version 5.0 - June 2016
+      name: 版本 5.0 - June 2016
       url: 5_0_release_notes.html
-      description: Release notes for Rails 5.0.
+      description: 版本注记之 Rails 5.0。
     -
-      name: Version 4.2 - December 2014
+      name: 版本 4.2 - December 2014
       url: 4_2_release_notes.html
-      description: Release notes for Rails 4.2.
+      description: 版本注记之 Rails 4.2。
     -
-      name: Version 4.1 - April 2014
+      name: 版本 4.1 - April 2014
       url: 4_1_release_notes.html
-      description: Release notes for Rails 4.1.
+      description: 版本注记之 Rails 4.1。
     -
-      name: Version 4.0 - June 2013
+      name: 版本 4.0 - June 2013
       url: 4_0_release_notes.html
-      description: Release notes for Rails 4.0.
+      description: 版本注记之 Rails 4.0。
     -
-      name: Version 3.2 - January 2012
+      name: 版本 3.2 - January 2012
       url: 3_2_release_notes.html
-      description: Release notes for Rails 3.2.
+      description: 版本注记之 Rails 3.2。
     -
-      name: Version 3.1 - August 2011
+      name: 版本 3.1 - August 2011
       url: 3_1_release_notes.html
-      description: Release notes for Rails 3.1.
+      description: 版本注记之 Rails 3.1。
     -
-      name: Version 3.0 - August 2010
+      name: 版本 3.0 - August 2010
       url: 3_0_release_notes.html
-      description: Release notes for Rails 3.0.
+      description: 版本注记之 Rails 3.0。
     -
-      name: Version 2.3 - March 2009
+      name: 版本 2.3 - March 2009
       url: 2_3_release_notes.html
-      description: Release notes for Rails 2.3.
+      description: 版本注记之 Rails 2.3。
     -
-      name: Version 2.2 - November 2008
+      name: 版本 2.2 - November 2008
       url: 2_2_release_notes.html
-      description: Release notes for Rails 2.2.
+      description: 版本注记之 Rails 2.2。
