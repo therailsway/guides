@@ -1,6 +1,6 @@
 **DO NOT READ THIS FILE ON GITHUB, GUIDES ARE PUBLISHED ON https://guides.rubyonrails.org.**
 
-为 Ruby on Rails 作贡献
+为 Ruby on Rails 做贡献
 =============================
 
 本指南内容揭秘 _您_ 如何才能成为 Ruby on Rails 持续开发者之一 。
@@ -13,10 +13,9 @@
 * 如何为 Ruby on Rails 文档作贡献；
 * 如何为 the Ruby on Rails 代码做贡献。
 
-Ruby on Rails 不是“泛泛的某些人又写的一个框架而已”。多年来，成千上万的人们参与到  Ruby on Rails 中——从一个字符到大型的架构修改，或者重要的文档撰写——所有这一切都在促使 Ruby on Rails 变得更好。即使您不会编写代码或者文档，也会有很多方式参与到其中——如汇报问题或测试软件补丁等。
+Ruby on Rails 并不是“某某人又写的一个框架而已”。多年来，成千上万的人们参与到  Ruby on Rails 中——从一个字符到大型的架构修改，或者重要的文档撰写——所有这一切都在促使 Ruby on Rails 变得更好。即使您不会编写代码或者文档，也会有很多方式参与到其中——如汇报问题或测试软件补丁等。
 
-As mentioned in [Rails'
-README](https://github.com/rails/rails/blob/main/README.md), everyone interacting in Rails and its sub-projects' codebases, issue trackers, chat rooms, discussion boards, and mailing lists is expected to follow the Rails [code of conduct](https://rubyonrails.org/conduct).
+正如 [Rails 自述](https://github.com/rails/rails/blob/main/README.md)所言，希望每个人都可以在[行为准则](https://rubyonrails.org/conduct) 的指导下参与到 Rails 及其子项目的代码编写、问题追踪、聊天室、论坛讨论和邮件列表中进行互动交流。
 
 --------------------------------------------------------------------------------
 
@@ -141,45 +140,45 @@ To do so, make changes to Rails guides source files (located [here](https://gith
 
 When working with documentation, please take into account the [API Documentation Guidelines](api_documentation_guidelines.html) and the [Ruby on Rails Guides Guidelines](ruby_on_rails_guides_guidelines.html).
 
-Translating Rails Guides
+翻译 Rails 指南
 ------------------------
 
-We are happy to have people volunteer to translate the Rails guides. Just follow these steps:
+我们很高兴有志愿者翻译 Rails 指南。只需遵循下面步骤：
 
-* Fork https://github.com/rails/rails.
-* Add a source folder for your language, for example: *guides/source/it-IT* for Italian.
-* Copy the contents of *guides/source* into your language directory and translate them.
-* Do NOT translate the HTML files, as they are automatically generated.
+* 复刻（Fork） https://github.com/rails/rails；
+* 添加一个您要翻译的语言文件夹，例如：简体中文就是 *guides/source/it-IT*；
+* 将 *guides/source* 内的内容复制到您的语言文件夹，然后开始翻译；
+* 不要翻译 HTML 文件，因为他们是自动生成的。
 
-Note that translations are not submitted to the Rails repository; your work lives in your fork, as described above. This is because, in practice, documentation maintenance via patches is only sustainable in English.
+注意不要将翻译提交到 Rails 代码库，您的翻译仅限于您自己的复刻。这是因为实际上的文档维护仅限于英文文档。
 
-To generate the guides in HTML format, you will need to install the guides dependencies, `cd` into the *guides* directory, and then run (e.g., for it-IT):
+生成 HTML 格式指南需要安装指南依赖软件，`cd` 进入 *guides* 目录，然后运行（例如对于 zh-CN）：
 
 ```bash
-# only install gems necessary for the guides. To undo run: bundle config --delete without
+# 只安装指南需要的 Gem。取消运行：bundle config --delete without
 $ bundle install --without job cable storage ujs test db
 $ cd guides/
 $ bundle exec rake guides:generate:html GUIDES_LANGUAGE=it-IT
 ```
 
-This will generate the guides in an *output* directory.
+这将在 *output* 目录生成 HTML 格式指南。
 
-NOTE: The Redcarpet Gem doesn't work with JRuby.
+NOTE: Redcarpet Gem 不能在 JRuby 工作。
 
-Translation efforts we know about (various versions):
+我们知道的翻译有（各种版本）：
 
-* **Italian**: [https://github.com/rixlabs/docrails](https://github.com/rixlabs/docrails)
-* **Spanish**: [https://github.com/latinadeveloper/railsguides.es](https://github.com/latinadeveloper/railsguides.es)
-* **Polish**: [https://github.com/apohllo/docrails](https://github.com/apohllo/docrails)
-* **French** : [https://github.com/railsfrance/docrails](https://github.com/railsfrance/docrails)
-* **Czech** : [https://github.com/rubyonrails-cz/docrails/tree/czech](https://github.com/rubyonrails-cz/docrails/tree/czech)
-* **Turkish** : [https://github.com/ujk/docrails](https://github.com/ujk/docrails)
-* **Korean** : [https://github.com/rorlakr/rails-guides](https://github.com/rorlakr/rails-guides)
-* **Simplified Chinese** : [https://github.com/ruby-china/guides](https://github.com/ruby-china/guides)
-* **Traditional Chinese** : [https://github.com/docrails-tw/guides](https://github.com/docrails-tw/guides)
-* **Russian** : [https://github.com/morsbox/rusrails](https://github.com/morsbox/rusrails)
-* **Japanese** : [https://github.com/yasslab/railsguides.jp](https://github.com/yasslab/railsguides.jp)
-* **Brazilian Portuguese** : [https://github.com/campuscode/rails-guides-pt-BR](https://github.com/campuscode/rails-guides-pt-BR)
+* **意大利文**: [https://github.com/rixlabs/docrails](https://github.com/rixlabs/docrails)
+* **西班牙文**: [https://github.com/latinadeveloper/railsguides.es](https://github.com/latinadeveloper/railsguides.es)
+* **波兰文**: [https://github.com/apohllo/docrails](https://github.com/apohllo/docrails)
+* **法文** : [https://github.com/railsfrance/docrails](https://github.com/railsfrance/docrails)
+* **捷克文** : [https://github.com/rubyonrails-cz/docrails/tree/czech](https://github.com/rubyonrails-cz/docrails/tree/czech)
+* **土耳其文** : [https://github.com/ujk/docrails](https://github.com/ujk/docrails)
+* **韩文** : [https://github.com/rorlakr/rails-guides](https://github.com/rorlakr/rails-guides)
+* **简体中文** : [https://github.com/ruby-china/guides](https://github.com/ruby-china/guides)
+* **繁体中文** : [https://github.com/docrails-tw/guides](https://github.com/docrails-tw/guides)
+* **俄文** : [https://github.com/morsbox/rusrails](https://github.com/morsbox/rusrails)
+* **日文** : [https://github.com/yasslab/railsguides.jp](https://github.com/yasslab/railsguides.jp)
+* **巴西葡萄牙文** : [https://github.com/campuscode/rails-guides-pt-BR](https://github.com/campuscode/rails-guides-pt-BR)
 
 Contributing to the Rails Code
 ------------------------------

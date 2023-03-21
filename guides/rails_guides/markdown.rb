@@ -118,7 +118,7 @@ module RailsGuides
             end
 
             doc.css("h3, h4, h5, h6").each do |node|
-              node.inner_html = "<a class='anchorlink' href='##{node[:id]}'>#{node.inner_html}</a>"
+              node.inner_html = "<a class='anchorlink' href='##{node[:id].html_safe}'>#{node.inner_html}</a>"
             end
           end
           @body = @epub ? document.to_xhtml : document.to_html
